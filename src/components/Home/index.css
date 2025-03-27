@@ -63,3 +63,33 @@
 .movie-card button:hover {
   background-color: #2980b9;
 }
+/* Pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.pagination-btn {
+  background-color: #e50914;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin: 0 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.pagination-btn:disabled {
+  background-color: #444;
+  cursor: not-allowed;
+}
+
+.page-number {
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
