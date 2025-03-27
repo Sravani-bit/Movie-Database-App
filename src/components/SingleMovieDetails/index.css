@@ -1,0 +1,85 @@
+/* Movie Details Page Styles */
+.movie-details-container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #1c1c1c;
+  color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+}
+
+/* Movie Info Section */
+.movie-info {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.movie-poster {
+  width: 250px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.1);
+}
+
+.movie-text {
+  flex-grow: 1;
+}
+
+.movie-text h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #ffcc00;
+}
+
+.movie-text p {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.movie-text strong {
+  color: #ffcc00;
+}
+
+/* Cast Section */
+h2 {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 22px;
+  color: #ffcc00;
+}
+
+/* Cast Grid */
+.cast-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+/* Individual Cast Card */
+.cast-card {
+  background-color: #2a2a2a;
+  padding: 10px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(255, 255, 255, 0.1);
+}
+
+.cast-image {
+  width: 100px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.cast-name {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.cast-character {
+  font-size: 12px;
+  color: #ffcc00;
+}
