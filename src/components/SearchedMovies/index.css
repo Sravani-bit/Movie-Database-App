@@ -71,7 +71,9 @@
 }
 
 /* Loading and Error Messages */
-.loading-text, .error-text, .no-results-text {
+.loading-text,
+.error-text,
+.no-results-text {
   text-align: center;
   font-size: 18px;
   color: #fff;
